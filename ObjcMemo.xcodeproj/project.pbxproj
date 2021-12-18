@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5778EA81276DA53800DDA648 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA80276DA53800DDA648 /* Memo.m */; };
+		5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */; };
 		57E840D8276D9C660033386D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E840D7276D9C660033386D /* AppDelegate.m */; };
 		57E840DB276D9C660033386D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E840DA276D9C660033386D /* SceneDelegate.m */; };
 		57E840E1276D9C660033386D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E840DF276D9C660033386D /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		5778EA7F276DA53800DDA648 /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
 		5778EA80276DA53800DDA648 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
+		5778EA83276DA93C00DDA648 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
+		5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
 		57E840D3276D9C660033386D /* ObjcMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E840D6276D9C660033386D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57E840D7276D9C660033386D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		5778EA7D276DA40E00DDA648 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				5778EA82276DA8E200DDA648 /* VC */,
 				5778EA7E276DA50C00DDA648 /* Model */,
 				57E840E2276D9C660033386D /* ObjcMemo.xcdatamodeld */,
 				57E840E7276D9C670033386D /* LaunchScreen.storyboard */,
@@ -76,6 +80,15 @@
 				5778EA80276DA53800DDA648 /* Memo.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5778EA82276DA8E200DDA648 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5778EA83276DA93C00DDA648 /* MemoListTableViewController.h */,
+				5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		57E840CA276D9C660033386D = {
@@ -174,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5778EA81276DA53800DDA648 /* Memo.m in Sources */,
+				5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */,
 				57E840EC276D9C670033386D /* main.m in Sources */,
 				57E840E4276D9C660033386D /* ObjcMemo.xcdatamodeld in Sources */,
 				57E840D8276D9C660033386D /* AppDelegate.m in Sources */,
