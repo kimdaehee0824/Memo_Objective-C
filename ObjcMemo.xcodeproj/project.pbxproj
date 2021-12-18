@@ -41,17 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5778EA7B276DA0CD00DDA648 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				57E840E2276D9C660033386D /* ObjcMemo.xcdatamodeld */,
-				57E840E7276D9C670033386D /* LaunchScreen.storyboard */,
-				57E840DF276D9C660033386D /* Main.storyboard */,
-			);
-			name = Sources;
-			path = "내ㅕㄱㅊㄷ";
-			sourceTree = "<group>";
-		};
 		5778EA7C276DA10800DDA648 /* ReSources */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +53,16 @@
 				57E840EB276D9C670033386D /* main.m */,
 			);
 			path = ReSources;
+			sourceTree = "<group>";
+		};
+		5778EA7D276DA40E00DDA648 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				57E840E2276D9C660033386D /* ObjcMemo.xcdatamodeld */,
+				57E840E7276D9C670033386D /* LaunchScreen.storyboard */,
+				57E840DF276D9C660033386D /* Main.storyboard */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		57E840CA276D9C660033386D = {
@@ -85,8 +84,8 @@
 		57E840D5276D9C660033386D /* ObjcMemo */ = {
 			isa = PBXGroup;
 			children = (
+				5778EA7D276DA40E00DDA648 /* Sources */,
 				5778EA7C276DA10800DDA648 /* ReSources */,
-				5778EA7B276DA0CD00DDA648 /* Sources */,
 			);
 			path = ObjcMemo;
 			sourceTree = "<group>";
