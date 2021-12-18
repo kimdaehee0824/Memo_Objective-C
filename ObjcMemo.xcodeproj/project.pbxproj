@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5778EA7B276DA0CD00DDA648 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				57E840E2276D9C660033386D /* ObjcMemo.xcdatamodeld */,
+				57E840E7276D9C670033386D /* LaunchScreen.storyboard */,
+				57E840DF276D9C660033386D /* Main.storyboard */,
+			);
+			name = Sources;
+			path = "내ㅕㄱㅊㄷ";
+			sourceTree = "<group>";
+		};
+		5778EA7C276DA10800DDA648 /* ReSources */ = {
+			isa = PBXGroup;
+			children = (
+				57E840EA276D9C670033386D /* Info.plist */,
+				57E840E5276D9C670033386D /* Assets.xcassets */,
+				57E840D6276D9C660033386D /* AppDelegate.h */,
+				57E840D9276D9C660033386D /* SceneDelegate.h */,
+				57E840D7276D9C660033386D /* AppDelegate.m */,
+				57E840DA276D9C660033386D /* SceneDelegate.m */,
+				57E840EB276D9C670033386D /* main.m */,
+			);
+			path = ReSources;
+			sourceTree = "<group>";
+		};
 		57E840CA276D9C660033386D = {
 			isa = PBXGroup;
 			children = (
@@ -60,16 +85,8 @@
 		57E840D5276D9C660033386D /* ObjcMemo */ = {
 			isa = PBXGroup;
 			children = (
-				57E840D6276D9C660033386D /* AppDelegate.h */,
-				57E840D7276D9C660033386D /* AppDelegate.m */,
-				57E840D9276D9C660033386D /* SceneDelegate.h */,
-				57E840DA276D9C660033386D /* SceneDelegate.m */,
-				57E840E5276D9C670033386D /* Assets.xcassets */,
-				57E840E7276D9C670033386D /* LaunchScreen.storyboard */,
-				57E840DF276D9C660033386D /* Main.storyboard */,
-				57E840EA276D9C670033386D /* Info.plist */,
-				57E840EB276D9C670033386D /* main.m */,
-				57E840E2276D9C660033386D /* ObjcMemo.xcdatamodeld */,
+				5778EA7C276DA10800DDA648 /* ReSources */,
+				5778EA7B276DA0CD00DDA648 /* Sources */,
 			);
 			path = ObjcMemo;
 			sourceTree = "<group>";
@@ -294,7 +311,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z25H7B85Z8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ObjcMemo/Info.plist;
+				INFOPLIST_FILE = ObjcMemo/ReSources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rich.ObjcMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,7 +338,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z25H7B85Z8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ObjcMemo/Info.plist;
+				INFOPLIST_FILE = ObjcMemo/ReSources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rich.ObjcMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
