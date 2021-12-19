@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,12 +50,31 @@
                     <navigationItem key="navigationItem" title="Meno" id="gl5-uw-gHZ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="eIu-p2-xEK">
                             <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <segue destination="GlH-dN-lrk" kind="presentation" modalPresentationStyle="fullScreen" id="ZeU-IV-MrB"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="luf-Fp-UMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="257.97101449275362" y="142.63392857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MaZ-U9-PHC">
+            <objects>
+                <viewController id="IpB-HA-lxn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TAC-nu-hRh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5jy-Wr-QYe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dYu-To-Ne7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEE-Wr-kq8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1994" y="143"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nqw-Ny-1BP">
@@ -72,6 +92,25 @@
             </objects>
             <point key="canvasLocation" x="-632" y="143"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DJc-hx-C6i">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GlH-dN-lrk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="2m3-mQ-I0s"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MGs-og-qrP">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IpB-HA-lxn" kind="relationship" relationship="rootViewController" id="75V-Lp-MIb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5W-pT-aZX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="143"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="labelColor">
@@ -82,6 +121,9 @@
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
