@@ -10,11 +10,19 @@
 
 @interface MemoListTableViewController ()
 
+@property (strong, nonatomic) NSDateFormatter* formatter;
+
 @end
 
 @implementation MemoListTableViewController
 
 - (void)viewDidLoad {
+    
+    self.formatter = [[NSDateFormatter alloc] init];
+    self.formatter.dateStyle = NSDateFormatterLongStyle;
+    self.formatter.timeStyle = NSDateFormatterNoStyle;
+    self.formatter.locale = [NSLocale localeWithLocaleIdentifier:@"Ko_kr"];
+    
     [super viewDidLoad];
 }
 
@@ -31,7 +39,7 @@
     
     Memo* target = [[Memo dummyMemoList]objectAtIndex:indexPath.row];
     cell.textLabel.text = target.content;
-    cell.detailTextLabel.text = target.insertDate.description;
+    cell.detailTextLabel.text = [self.formatter stringFromDate:target.insertDate];
     
     
     return cell;
