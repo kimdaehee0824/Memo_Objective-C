@@ -9,6 +9,9 @@
 
 @interface ComposeViewController ()
 
+- (IBAction)closeButton:(id)sender;
+- (IBAction)saveButton:(id)sender;
+
 @end
 
 @implementation ComposeViewController
@@ -28,4 +31,10 @@
 }
 */
 
+- (IBAction)saveButton:(id)sender {
+}
+
+- (IBAction)closeButton:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

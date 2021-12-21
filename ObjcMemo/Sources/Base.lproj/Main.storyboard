@@ -63,7 +63,7 @@
         <!--새로운 메모-->
         <scene sceneID="MaZ-U9-PHC">
             <objects>
-                <viewController id="IpB-HA-lxn" sceneMemberID="viewController">
+                <viewController id="IpB-HA-lxn" customClass="ComposeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TAC-nu-hRh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,8 +87,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="새로운 메모" id="dYu-To-Ne7">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="rHW-rd-cm1"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="mfS-xF-llF"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="rHW-rd-cm1">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <action selector="closeButton:" destination="IpB-HA-lxn" id="4l0-kk-GPq"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="mfS-xF-llF">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <action selector="saveButton:" destination="IpB-HA-lxn" id="Kom-Ly-bjH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEE-Wr-kq8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

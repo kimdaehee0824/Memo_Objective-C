@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575C472927701CDB002CC5E1 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575C472827701CDB002CC5E1 /* ComposeViewController.m */; };
 		5778EA81276DA53800DDA648 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA80276DA53800DDA648 /* Memo.m */; };
 		5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */; };
 		57E840D8276D9C660033386D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E840D7276D9C660033386D /* AppDelegate.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575C472727701CDB002CC5E1 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		575C472827701CDB002CC5E1 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
 		5778EA7F276DA53800DDA648 /* Memo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
 		5778EA80276DA53800DDA648 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
 		5778EA83276DA93C00DDA648 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				5778EA83276DA93C00DDA648 /* MemoListTableViewController.h */,
 				5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */,
+				575C472727701CDB002CC5E1 /* ComposeViewController.h */,
+				575C472827701CDB002CC5E1 /* ComposeViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */,
 				57E840EC276D9C670033386D /* main.m in Sources */,
 				57E840E4276D9C660033386D /* ObjcMemo.xcdatamodeld in Sources */,
+				575C472927701CDB002CC5E1 /* ComposeViewController.m in Sources */,
 				57E840D8276D9C660033386D /* AppDelegate.m in Sources */,
 				57E840DB276D9C660033386D /* SceneDelegate.m in Sources */,
 			);
