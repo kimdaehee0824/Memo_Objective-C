@@ -10,6 +10,7 @@
 		575C472927701CDB002CC5E1 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575C472827701CDB002CC5E1 /* ComposeViewController.m */; };
 		5778EA81276DA53800DDA648 /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA80276DA53800DDA648 /* Memo.m */; };
 		5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */; };
+		57D03F2D27719596002F49E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D03F2C27719596002F49E8 /* DetailViewController.m */; };
 		57E840D8276D9C660033386D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E840D7276D9C660033386D /* AppDelegate.m */; };
 		57E840DB276D9C660033386D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E840DA276D9C660033386D /* SceneDelegate.m */; };
 		57E840E1276D9C660033386D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E840DF276D9C660033386D /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 		5778EA80276DA53800DDA648 /* Memo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
 		5778EA83276DA93C00DDA648 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
 		5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
+		57D03F2B27719596002F49E8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		57D03F2C27719596002F49E8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		57E840D3276D9C660033386D /* ObjcMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E840D6276D9C660033386D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57E840D7276D9C660033386D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				5778EA84276DA93C00DDA648 /* MemoListTableViewController.m */,
 				575C472727701CDB002CC5E1 /* ComposeViewController.h */,
 				575C472827701CDB002CC5E1 /* ComposeViewController.m */,
+				57D03F2B27719596002F49E8 /* DetailViewController.h */,
+				57D03F2C27719596002F49E8 /* DetailViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				5778EA81276DA53800DDA648 /* Memo.m in Sources */,
 				5778EA85276DA93C00DDA648 /* MemoListTableViewController.m in Sources */,
 				57E840EC276D9C670033386D /* main.m in Sources */,
+				57D03F2D27719596002F49E8 /* DetailViewController.m in Sources */,
 				57E840E4276D9C660033386D /* ObjcMemo.xcdatamodeld in Sources */,
 				575C472927701CDB002CC5E1 /* ComposeViewController.m in Sources */,
 				57E840D8276D9C660033386D /* AppDelegate.m in Sources */,
