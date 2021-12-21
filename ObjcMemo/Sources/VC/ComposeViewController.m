@@ -6,11 +6,14 @@
 //
 
 #import "ComposeViewController.h"
+#import "Memo.h"
 
 @interface ComposeViewController ()
 
 - (IBAction)closeButton:(id)sender;
 - (IBAction)saveButton:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextView *memoTextView;
 
 @end
 
@@ -32,6 +35,10 @@
 */
 
 - (IBAction)saveButton:(id)sender {
+    NSString* memo = self.memoTextView.text;
+    Memo* newMemo = [[Memo alloc]initWithContent:memo];
+    [[Memo dummyMemoList] addObject:newMemo];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)closeButton:(id)sender {

@@ -15,7 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSDate* insertDate;
 
 - (instancetype)initWithContent:(NSString*) content;
-+ (NSArray*) dummyMemoList;
+
+//+ (NSMutableArray*) dummyMemoList;
+
+@property (strong, readonly, nonatomic, class) NSMutableArray* dummyMemoList;
 
 @end
 
